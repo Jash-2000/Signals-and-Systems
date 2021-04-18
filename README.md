@@ -2,7 +2,7 @@
 
 This repository contains various signals analysis projects I did in 2020 and 2021. I have also added the finall project in this repository. For these, I followed the book **Signals and Systems**, Book by **Alan V. Oppenheim**
 
-![download](https://user-images.githubusercontent.com/47540320/115142847-88a94a80-a061-11eb-878f-788e19405bb8.jpg)
+![download](https://user-images.githubusercontent.com/47540320/115142847-88a94a80-a061-11eb-878f-788e19405bb8.jpg) and ![download](https://user-images.githubusercontent.com/47540320/115143503-5f8ab900-a065-11eb-8203-46fe77a06823.jpg)
 
 ---
 
@@ -38,7 +38,7 @@ The transfer function obtained is as follows :
 
  2. **Plotting the FFT of a combination of 2 simple sinusoidal signals and developing its magnitude spectrum**
  
- ![download](https://user-images.githubusercontent.com/47540320/115143354-6107b180-a064-11eb-9877-5b4bcdde30d8.jpg)  and ![download](https://user-images.githubusercontent.com/47540320/115143503-5f8ab900-a065-11eb-8203-46fe77a06823.jpg)
+ ![download](https://user-images.githubusercontent.com/47540320/115143354-6107b180-a064-11eb-9877-5b4bcdde30d8.jpg)
 
 
  In the magnitude specturm, I observed the following points:
