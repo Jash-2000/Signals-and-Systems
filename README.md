@@ -26,7 +26,6 @@ This is the function for the project. This will have 4 parameters
 
  1. **Development of an 7th order Butterworth filter and plotting the B(s)B(-s) signal**
 
-```
 For my case, the filter is a low pass normalizing filter and hence, the poles would lie on the boundary of the circle r = Wc.
 
 | B(s) | B(s)B(-s) |
@@ -36,12 +35,11 @@ For my case, the filter is a low pass normalizing filter and hence, the poles wo
 The transfer function obtained is as follows :
 
 ![download](https://user-images.githubusercontent.com/47540320/115143293-125a1780-a064-11eb-9856-c7e3152bcd46.jpg)
-```
 
  2. **Plotting the FFT of a combination of 2 simple sinusoidal signals and developing its magnitude spectrum**
  
- ```
- ![download](https://user-images.githubusercontent.com/47540320/115143354-6107b180-a064-11eb-9877-5b4bcdde30d8.jpg)
+ ![download](https://user-images.githubusercontent.com/47540320/115143354-6107b180-a064-11eb-9877-5b4bcdde30d8.jpg)  and ![download](https://user-images.githubusercontent.com/47540320/115143503-5f8ab900-a065-11eb-8203-46fe77a06823.jpg)
+
 
  In the magnitude specturm, I observed the following points:
  * All the 4 peaks have a magnitude nearing to 2 i.e. the magnitude or amplitude of the original cosine functions.
@@ -50,38 +48,30 @@ The transfer function obtained is as follows :
    *  2nd peak – It is basically formed to represent (-11507) Hz frequency. {2cos x = e^jx + e^-jx}. So, it’s the -jx part and because of change in axis, the frequency is shown over here.
    *  3rd peak – It shows 11507 Hz frequency. Now because of constraints in axis and due to time period complications in FFT, it is shown as (20000 – 11507 ) Hz . 
    *  4th peak - It is owing to the -507 Hz frequency and is formed in symmetry, just like peak 2 is formed.
-
- ```
  
  3. **Generating complex convolutions in continuous time domain**
  
- ```
  ![download](https://user-images.githubusercontent.com/47540320/115143410-cd82b080-a064-11eb-9e74-582d5266f566.jpg)
- ```
  
  4. **Generating complex convolutions in discrete time domain**
  
- ```
  ![download](https://user-images.githubusercontent.com/47540320/115143420-e1c6ad80-a064-11eb-8eba-654a0ea093d2.jpg)
- ```
  
  5. **Given a system defination, developing a pole-zero map to comment on its stability.**
  
- ```
- ```
+ Given the signal ![download](https://user-images.githubusercontent.com/47540320/115143531-8cd76700-a065-11eb-9a15-63844ef4f5a3.jpg), 
+ the pole-zero map is as follows:
  
- 6. **ROC analysis of a pzmap**
+ ![download](https://user-images.githubusercontent.com/47540320/115143557-b2fd0700-a065-11eb-83da-a1bf3fd35f7c.jpg)
+
+ The stability analysis is as follows:
+ * For the system to be stable and causal, mode(z) must be greater than the mode(poles).i.e. the system must be completely right-handed or on the positive axis of time. Which is proved by the hand calculations above.
+ * Also, the poles marked on the left side of the real axis, this means that the system is bounded . It has no exponentially increasing component
  
- ```
- ```
+ 6. **Generation of a hybrid signal and applying time-scaling and time-shifting to that.**
  
- 7. **Generation of a standerd signal and applying time-scaling and time-shifting to that.**
+ ![download](https://user-images.githubusercontent.com/47540320/115143618-19822500-a066-11eb-890a-0d34558925a3.jpg)
  
- ```
- ```
+ 7. **Generation of a standard signal and applying time-scaling and time-shifting to that.**
  
- 8. **Generation of a hybrid signal and applying time-scaling and time-shifting to that.**
- 
- ```
- 
- ```
+ ![download](https://user-images.githubusercontent.com/47540320/115143637-2ef74f00-a066-11eb-9619-4b443acc2699.jpg)
